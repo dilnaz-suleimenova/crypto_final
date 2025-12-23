@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "method": "email",
+    "identifier": "han.man.80@bk.ru",
+    "passwordHash": "$2a$10$tmppoFwMwm3WrbyLd1BUaeFLcV2ul35Q.NVJnW/bBLM7ufNIFkT2e",
+    "totpSecret": "N4TCS3TLFE3F2KDBMMTFCRKXOVRXQ53Y",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "method": "email",
+    "identifier": "220107022@stu.sdu.edu.kz",
+    "passwordHash": "$2a$10$gvXq2GvP75Jn9UaVnaO5lOqPdFZ843iZzxU40J4n2CAiFL85UP66O",
+    "totpSecret": "OYYEWNTHFFJWGPZYMZQU46RSEZXCIRDV",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "method": "phone",
+    "identifier": "+7 708 510 10 33",
+    "passwordHash": "$2a$10$ko3RDJCbJaGyb6W9tDsxoOXbHyOl7y4XZN3IrFpiuRLt5KYRnP/om",
+    "totpSecret": "FBHDEQDFLVCDOUJXFZ5WWOLIEZNWISBR",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "method": "email",
+    "identifier": "d.suleimenova.d@gmail.com",
+    "passwordHash": "$2a$10$BGMNMd69PG9bk7NLqUVfkOgCSx9JjUDlhFrGrhZ.C21egqtqAK4ny",
+    "totpSecret": "LNTXIWZUHBBVISZYN5SEQS2XJU4UC4JV",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "method": "email",
+    "identifier": "220107037@stu.sdu.edu.kz",
+    "passwordHash": "$2a$10$UtPmleXuP.3tCMT7P9lvPO1ksF7IqAeUcyh93RqEI2LXxUjeBYhQm",
+    "totpSecret": "JZQXSTCPIMTHCJJPJEXFM2LJK5DGSMBT",
+    "isActive": true
+  }
+]
