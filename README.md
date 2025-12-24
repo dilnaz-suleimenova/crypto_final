@@ -1,6 +1,8 @@
 # Secure Authentication & Cryptography System
 
 A comprehensive cryptographic toolkit providing secure messaging, file encryption, authentication, and blockchain-based audit trails.
+# Presentation Link: https://www.canva.com/design/DAG6tzzOEeY/RwC4W6IRQnwqPZExmbN4Fg/edit?utm_content=DAG6tzzOEeY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+# or you can open pdf above 'CryptoFinal.pdf'
 
 ## Features
 
