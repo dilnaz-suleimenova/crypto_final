@@ -1,0 +1,31 @@
+{
+  "next_id": 3,
+  "messages": [
+    {
+      "id": 1,
+      "sender_id": 1,
+      "recipient_id": 2,
+      "created_at": "2025-12-23T14:06:05.763Z",
+      "salt_b64": "seGn6P2Vjv1sdIwnGsQW7Q==",
+      "sender_eph_pub_b64": "BPlmnM/H77qMGhJ7e9hKMiZ0ecAKtKifoZH0dU2RGZlKUiHfTKXHMGrX4cUyg64Lm99dZD60VbVIAyKxXx3lXqs=",
+      "nonce_b64": "4lInl+5tpE7f7ZUl",
+      "tag_b64": "ojhso9o0gpLxDzECNbmiQg==",
+      "ciphertext_b64": "S9E=",
+      "signature_b64": "tzlVvbnolf9JlGobV1I1uxeJVq9f355+DVXH4fmlfhrw68IdSj9zU1L93wfZQ4mP6sPt9ImifHIXj9+b0xdUDA==",
+      "ciphertext_hash": "eaf0974803fd34a28109fe58ba0f3aa80b8f26ca8930a70e809a66eae3b11d81"
+    },
+    {
+      "id": 2,
+      "sender_id": 1,
+      "recipient_id": 2,
+      "created_at": "2025-12-23T15:20:58.424Z",
+      "salt_b64": "dYd186TlSWFMa98dsWxMhw==",
+      "sender_eph_pub_b64": "BH2VXpLvXjT5UTF3KajP5MsMqORrCWq3MyyLGEBOksC/bFeHlfo9ylgMgINbeVGwp811utQ4ISTjCsMqJj43V0c=",
+      "nonce_b64": "4jMw54rKa27ADlfG",
+      "tag_b64": "dwHYxC3dQe3wM4rRW1PjQQ==",
+      "ciphertext_b64": "Ols=",
+      "signature_b64": "YF46s1fYSAFJkeDKY4N+EK8MnJCj9tTtH8rWrPY2APdoBu0GbwtSJO/OVFZRgbMmrLSsP/N2SJrDazzgI4sJBw==",
+      "ciphertext_hash": "f955c5d03b4379de0c80cb233afa5293bc89df38324701ea716027aaad22ed16"
+    }
+  ]
+}

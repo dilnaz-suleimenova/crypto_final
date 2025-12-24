@@ -1,0 +1,258 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1766498765,
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "901131d838b17aac0f7885b81e03cbdc9f5157a00343d30ab22083685ed1416a",
+      "nonce": 2512,
+      "hash": "000ae49f03b804cdce237125f61b0ea9ef49091b4cdb277073b10db2624fa408",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "GENESIS",
+          "timestamp": 1766498765
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "timestamp": 1766498765,
+      "prev_hash": "000ae49f03b804cdce237125f61b0ea9ef49091b4cdb277073b10db2624fa408",
+      "merkle_root": "d06c5296a5d7c85bc7772bb653aa861dc4a570a5fff4048c30390e4a6f9a5622",
+      "nonce": 5447,
+      "hash": "00012d643369f30d4b68ca134df13048af6ce954757becae00cdacaf8e7424bf",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "TEST_EVENT",
+          "success": true,
+          "timestamp": 1766498765
+        },
+        {
+          "type": "TEST_EVENT",
+          "success": true,
+          "timestamp": 1766498765
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "timestamp": 1766503258,
+      "prev_hash": "00012d643369f30d4b68ca134df13048af6ce954757becae00cdacaf8e7424bf",
+      "merkle_root": "82f99ab4c04f9bdf95661b0edeca212d8b48583015deda1321be39833517c050",
+      "nonce": 2550,
+      "hash": "0003212802762e0c59a056d567cc1113fa1a0cb6a70841646d42335dce1cbaa2",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "TEST_EVENT",
+          "success": true,
+          "timestamp": 1766503258
+        },
+        {
+          "type": "TEST_EVENT",
+          "success": true,
+          "timestamp": 1766503258
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "timestamp": 1766503639,
+      "prev_hash": "0003212802762e0c59a056d567cc1113fa1a0cb6a70841646d42335dce1cbaa2",
+      "merkle_root": "45abddd8ff763184cc950a793b2bdede7226d464c9c41c417d11f5d2ce0baba3",
+      "nonce": 1976,
+      "hash": "000c6e53b6b462823f326fecb04be2d375c4999c3e358a3d025b8c1f224e68db",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 1,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766503378
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 1,
+          "success": true,
+          "timestamp": 1766503381
+        },
+        {
+          "type": "AUTH_LOGIN_VERIFY",
+          "user_id": 1,
+          "success": false,
+          "reason": "bad_totp",
+          "timestamp": 1766503390
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 1,
+          "success": true,
+          "timestamp": 1766503637
+        },
+        {
+          "type": "AUTH_LOGIN_VERIFY",
+          "user_id": 1,
+          "success": false,
+          "reason": "bad_totp",
+          "timestamp": 1766503639
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "timestamp": 1766503742,
+      "prev_hash": "000c6e53b6b462823f326fecb04be2d375c4999c3e358a3d025b8c1f224e68db",
+      "merkle_root": "77bafbfb8a2f0919302d2b175b76fac379fe861bf5b4d4e08331c41ae78b3423",
+      "nonce": 316,
+      "hash": "000682eb370d4497e7b2022f806073a097dabbda926dcbd0412c54453467b294",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "AUTH_LOGIN_VERIFY",
+          "user_id": 1,
+          "success": false,
+          "reason": "bad_totp",
+          "timestamp": 1766503654
+        },
+        {
+          "type": "AUTH_REGISTER",
+          "user_id": 3,
+          "method": "phone",
+          "success": true,
+          "timestamp": 1766503694
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 3,
+          "success": true,
+          "timestamp": 1766503716
+        },
+        {
+          "type": "AUTH_LOGIN_VERIFY",
+          "user_id": 3,
+          "success": false,
+          "reason": "bad_totp",
+          "timestamp": 1766503726
+        },
+        {
+          "type": "AUTH_LOGIN_VERIFY",
+          "user_id": 3,
+          "success": false,
+          "reason": "bad_totp",
+          "timestamp": 1766503742
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "timestamp": 1766511887,
+      "prev_hash": "000682eb370d4497e7b2022f806073a097dabbda926dcbd0412c54453467b294",
+      "merkle_root": "3505185a7da26d69e3b5229660099dbfc28716dfaaec6dd0bd59de0b6d76b2a9",
+      "nonce": 8280,
+      "hash": "00020035e3afc377649f1515f2720af73d5835cba62d6f400984e385afb66185",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "AUTH_REGISTER",
+          "user_id": 4,
+          "method": "email",
+          "success": true,
+          "timestamp": 1766511355
+        },
+        {
+          "type": "AUTH_REGISTER",
+          "user_id": 4,
+          "method": "email",
+          "success": true,
+          "timestamp": 1766511677
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766511878
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766511886
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766511887
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "timestamp": 1766513023,
+      "prev_hash": "00020035e3afc377649f1515f2720af73d5835cba62d6f400984e385afb66185",
+      "merkle_root": "2ff3515e1e154eb80325511b5659df1e6486bff4c4b25b4f9ff2fc3e4d3ea03a",
+      "nonce": 11398,
+      "hash": "0005bb96a59a74d2e0601ded9c1b403a8238400b5320a096467c07b7918e47a1",
+      "difficulty": 3,
+      "transactions": [
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766511919
+        },
+        {
+          "type": "AUTH_REGISTER",
+          "user_id": 4,
+          "method": "email",
+          "success": true,
+          "timestamp": 1766512443
+        },
+        {
+          "type": "AUTH_REGISTER",
+          "user_id": 4,
+          "method": "email",
+          "success": true,
+          "timestamp": 1766512947
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766512996
+        },
+        {
+          "type": "AUTH_LOGIN_START",
+          "user_id": 4,
+          "success": false,
+          "reason": "bad_password",
+          "timestamp": 1766513023
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "type": "AUTH_LOGIN_START",
+      "user_id": 4,
+      "success": false,
+      "reason": "bad_password",
+      "timestamp": 1766513024
+    },
+    {
+      "type": "AUTH_REGISTER",
+      "user_id": 5,
+      "method": "email",
+      "success": true,
+      "timestamp": 1766513089
+    }
+  ]
+}
